@@ -1,0 +1,79 @@
+.container{
+    position: relative;
+    line-height: 1.256;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.menu {
+    position: absolute;
+    background-color: black;
+    color: white;
+    float:left;
+    height: 100%;
+    width: 150px;
+    position: fixed;
+    padding: 0;
+    margin: 0;
+}
+.menu ul {
+    padding: 0;
+    margin: 0;
+}
+.menu ul li {
+    list-style: none;
+    border-bottom: 1px solid white;
+    padding: 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color:white;
+    line-height: 3em;
+    width: 100%;
+}
+.menu ul li:hover{
+    background-color: rgba(82, 42, 42,0.4);
+}
+
+.menu .mini-menu {
+    position: absolute;
+    margin-left: 130px;
+    margin-top:-70px;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    display: none;
+    transition:  all 1s ; 
+}
+
+.munu .mini-menu li{
+    list-style: none;
+}
+
+.menu ul li:nth-child(1):hover .mini-menu{
+    display: block ; 
+}
+
+.content {
+    padding-left: 300px;
+}
+.content .header{
+    text-align: center;
+    padding:20px;
+}
+.content .header .slogan{
+    color:rgba(19, 20, 20, 0.5);
+
+}
+.content .intro{
+    text-align: center;
+    border: 1px solid black;
+    background-color: rgba(121, 226, 226,0.3);
+}
+
+.tooter{
+    border-top: 1px solid black;
+    width: 100%;
+    background-color: rgba(156, 240, 212,0.1);
+}
+
